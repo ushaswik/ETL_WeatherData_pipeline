@@ -1,1 +1,24 @@
+# ETL Weather Data Pipeline
+
+## Overview
+This **ETL (Extract, Transform, Load)** pipeline retrieves weather data from an external API, processes the data, and loads it into a PostgreSQL database. The pipeline is designed to handle raw JSON data and transform it into a clean, structured format using Python, specifically leveraging **Pandas** for data manipulation. Once transformed, the data is loaded into a PostgreSQL database where it can be queried and analyzed for further insights.
+
+## Features
+- **Extract**: Fetches data from a weather API in JSON format.
+- **Transform**: Converts the JSON data into a structured DataFrame using Python and **Pandas**.
+- **Load**: Inserts the cleaned data into a PostgreSQL database for analysis and querying.
+
+## Tech Stack
+- **Python**: Core programming language.
+- **Pandas**: For transforming JSON data into DataFrame.
+- **Requests**: To fetch data from the weather API.
+- **PostgreSQL**: To store the transformed data.
+- **SQLAlchemy**: Used for seamless integration between Python and PostgreSQL.
+
+## Installation Guide
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-username/ETL-WeatherData-Pipeline.git
+   cd ETL-WeatherData-Pipeline
 
